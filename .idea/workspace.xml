@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1253f41-9295-43ec-aa14-6afea8968c6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/AccountDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/AccountDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/ExceptionLockDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/ExceptionLockDemo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/ExceptionLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/ExceptionLockDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/T05_Synchronized$SyncTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/T05_Synchronized$SyncTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/T05_Synchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/T05_Synchronized.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,8 +79,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="315">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
               <folding>
                 <element signature="e#1426#1427#0" expanded="true" />
                 <element signature="e#1454#1455#0" expanded="true" />
@@ -101,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="21">
-              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -189,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tyx/testSomeThing/ByValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java" />
         <option value="$PROJECT_DIR$/src/main/resources/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -200,8 +195,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1945" />
-    <option name="height" value="1105" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1620" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,8 +279,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587383140782" />
-    <property name="last_opened_file_path" value="E:/woodpecker/myProject" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587383386475" />
+    <property name="last_opened_file_path" value="E:/woodpecker/movie-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -429,12 +426,12 @@
       <workItem from="1585537600742" duration="5662000" />
       <workItem from="1587020326306" duration="18196000" />
       <workItem from="1587283200011" duration="5280000" />
-      <workItem from="1587346478419" duration="16833000" />
+      <workItem from="1587346478419" duration="17073000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153395000" />
+    <option name="totallyTimeSpent" value="153635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -949,8 +946,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="315">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
           <folding>
             <element signature="e#1426#1427#0" expanded="true" />
             <element signature="e#1454#1455#0" expanded="true" />
@@ -963,7 +960,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
