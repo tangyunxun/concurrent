@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1253f41-9295-43ec-aa14-6afea8968c6b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyx/juc/T04_ThreadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyx/juc/T04_ThreadState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/AccountDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/AccountDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/ExceptionLockDemo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/ExceptionLockDemo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/ExceptionLockDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/ExceptionLockDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/T05_Synchronized$SyncTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/T05_Synchronized$SyncTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/tyx/juc/T05_Synchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/tyx/juc/T05_Synchronized.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://F:/Software/java/java8/src.zip!/java/util/concurrent/FutureTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://F:/Software/java/java8/src.zip!/java/util/concurrent/Executors.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,17 +82,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="252">
+              <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding>
                 <element signature="e#1426#1427#0" expanded="true" />
                 <element signature="e#1454#1455#0" expanded="true" />
                 <element signature="e#2788#2789#0" expanded="true" />
                 <element signature="e#2825#2826#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -181,7 +186,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tyx/juc/T03_Sleep_Yield_Join.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tyx/juc/T04_ThreadState.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Syncronized.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tyx/testSomeThing/ByValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/.gitignore" />
       </list>
     </option>
   </component>
@@ -193,10 +200,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1620" />
-    <option name="height" value="880" />
+    <option name="width" value="1945" />
+    <option name="height" value="1105" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -264,8 +269,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="tyx" type="462c0819:PsiDirectoryNode" />
-              <item name="juc" type="462c0819:PsiDirectoryNode" />
-              <item name="T05_Synchronized.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="testSomeThing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -278,16 +282,19 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587368492692" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587383140782" />
+    <property name="last_opened_file_path" value="E:/woodpecker/myProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xiulian\concurrent" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\xiulian\concurrent\src\main\java\com\tyx\syncronizationTool" />
     </key>
@@ -304,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExceptionLockDemo">
+  <component name="RunManager" selected="Application.ByValue">
     <configuration name="AccountDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tyx.juc.AccountDemo" />
       <module name="concurrent" />
@@ -318,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tyx.juc.ExceptionLockDemo" />
+    <configuration name="ByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyx.testSomeThing.ByValue" />
       <module name="concurrent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tyx.juc.*" />
+          <option name="PATTERN" value="com.tyx.testSomeThing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,8 +338,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T03_Sleep_Yield_Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tyx.juc.T03_Sleep_Yield_Join" />
+    <configuration name="ExceptionLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tyx.juc.ExceptionLockDemo" />
       <module name="concurrent" />
       <extension name="coverage">
         <pattern>
@@ -372,11 +379,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ByValue" />
         <item itemvalue="Application.ExceptionLockDemo" />
         <item itemvalue="Application.AccountDemo" />
         <item itemvalue="Application.T05_Synchronized" />
         <item itemvalue="Application.T04_ThreadState" />
-        <item itemvalue="Application.T03_Sleep_Yield_Join" />
       </list>
     </recent_temporary>
   </component>
@@ -422,18 +429,18 @@
       <workItem from="1585537600742" duration="5662000" />
       <workItem from="1587020326306" duration="18196000" />
       <workItem from="1587283200011" duration="5280000" />
-      <workItem from="1587346478419" duration="14938000" />
+      <workItem from="1587346478419" duration="16833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151500000" />
+    <option name="totallyTimeSpent" value="153395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23391421" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23391421" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -442,7 +449,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39970717" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,20 +476,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.62/fastjson-1.2.62.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="175" column="29" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Software/java/java8/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="373" selection-start-line="373" selection-end-line="373" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/Software/java/java8/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -944,16 +937,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tyx/testSomeThing/ByValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tyx/juc/T05_Synchronized.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="252">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding>
             <element signature="e#1426#1427#0" expanded="true" />
             <element signature="e#1454#1455#0" expanded="true" />
             <element signature="e#2788#2789#0" expanded="true" />
             <element signature="e#2825#2826#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>

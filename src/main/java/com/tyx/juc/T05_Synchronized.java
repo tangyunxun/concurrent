@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  * 虚拟机规范并没有规定synchronized的实现细节，HOTSPOT是通过对象头里的两位标志加锁状态。
  * 非静态方法中锁定的是本对象，静态方法中锁定的是对应的Class对象
  *
- * Synchronized不要锁定String常量、Integer、Long
+ * Synchronized不要锁定String常量、Integer、Long等
  *
  * synchronized是可重入锁。举例：
  * synchronized m1(){
