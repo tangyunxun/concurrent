@@ -38,10 +38,17 @@ import java.util.concurrent.TimeUnit;
  * 自旋锁和系统锁（重量级锁）选型：
  * 加锁的代码执行时间短（自旋10次能拿到锁），线程数目不能太长，用自旋锁
  * 执行时间长，线程多，用系统锁
+ * 
+ * 锁优化：
+ * 一般情况下，锁的粒度要尽量细。但是过于细，过多的锁可能会使得锁竞争太激烈，这时候要适当的粗化锁。
+ * 锁住的对象要是final的
  */
 public class T05_Synchronized {
     private static int count = 10;
-    private Object o = new Object();
+    /**
+     * 所对象应该是final的，想想为什么？
+     */
+    private final Object o = new Object();
 
     public static void main(String[] args){
         for(int i = 0; i < 10; i++){
