@@ -5,7 +5,7 @@ package com.tyx.juc;
  * @Create 2020/4/20 9:57
  * sleep: 当前线程沉睡一段时间，并且让出cpu时间。线程苏醒后回到就绪状态，但不保证立马可以运行。
  * yield: 线程让步。当前线程让出cpu，回到就绪状态，继续参与对于cpu的竞争，并且有可能竞争获胜再次获得cpu时间
- * join : 在A线程里，ThreadB.join()，则等待ThreadB执行完，A才继续执行。123
+ * join : 在A线程里，ThreadB.join()，则等待ThreadB执行完，A才继续执行。
  *
  */
 public class T03_Sleep_Yield_Join {
